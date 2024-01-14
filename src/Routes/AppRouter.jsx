@@ -17,8 +17,8 @@ export default function AppRouter() {
         <Router>
             <Fragment>
                 <Routes>
-                    <Route exact path='/' element={<WrappedMainPage />} />
-                    <Route exact path='/dashboard2' element={<WrappedDashboardTwo />} />
+                    <Route exact path='/' element={<MainPage />} />
+                    <Route path='/dashboard2' element={<DashboardTwo />} />
                 </Routes>
             </Fragment>
         </Router>
