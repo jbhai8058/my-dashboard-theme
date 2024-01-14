@@ -5,8 +5,8 @@ export default function Header() {
         <Fragment>
             <div className="header">
                 <div className="header-left">
-                    <div className="menu-icon dw dw-menu" />
-                    <div className="search-toggle-icon dw dw-search2" data-toggle="header_search" />
+                    <div className="menu-icon bi bi-list" />
+                    <div className="search-toggle-icon bi bi-search" data-toggle="header_search" />
                     <div className="header-search">
                         <form>
                             <div className="form-group mb-0">
@@ -65,42 +65,60 @@ export default function Header() {
                                             <a href="#">
                                                 <img src="vendors/images/img.jpg" alt />
                                                 <h3>John Doe</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed...
+                                                </p>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <img src="vendors/images/photo1.jpg" alt />
                                                 <h3>Lea R. Frith</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed...
+                                                </p>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <img src="vendors/images/photo2.jpg" alt />
                                                 <h3>Erik L. Richards</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed...
+                                                </p>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <img src="vendors/images/photo3.jpg" alt />
                                                 <h3>John Doe</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed...
+                                                </p>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <img src="vendors/images/photo4.jpg" alt />
                                                 <h3>Renee I. Hansen</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed...
+                                                </p>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#">
                                                 <img src="vendors/images/img.jpg" alt />
                                                 <h3>Vicki M. Coleman</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed...</p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                    elit, sed...
+                                                </p>
                                             </a>
                                         </li>
                                     </ul>
@@ -130,7 +148,6 @@ export default function Header() {
                 </div>
             </div>
 
-
             <div className="right-sidebar">
                 <div className="sidebar-title">
                     <h3 className="weight-600 font-16 text-blue">
@@ -150,7 +167,7 @@ export default function Header() {
                         </div>
                         <h4 className="weight-600 font-18 pb-10">Sidebar Background</h4>
                         <div className="sidebar-btn-group pb-30 mb-10">
-                            <a href="javascript:void(0);" className="btn btn-outline-primary sidebar-light ">White</a>
+                            <a href="javascript:void(0);" className="btn btn-outline-primary sidebar-light">White</a>
                             <a href="javascript:void(0);" className="btn btn-outline-primary sidebar-dark active">Dark</a>
                         </div>
                         <h4 className="weight-600 font-18 pb-10">Menu Dropdown Icon</h4>
@@ -196,13 +213,13 @@ export default function Header() {
                             </div>
                         </div>
                         <div className="reset-options pt-30 text-center">
-                            <button className="btn btn-danger" id="reset-settings">Reset Settings</button>
+                            <button className="btn btn-danger" id="reset-settings">
+                                Reset Settings
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </Fragment>
     )
 }

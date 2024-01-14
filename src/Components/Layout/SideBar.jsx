@@ -19,16 +19,17 @@ export default function SideBar() {
                         <ul id="accordion-menu">
                             <li className="dropdown">
                                 <a href="javascript:;" className="dropdown-toggle">
-                                    <span className="micon dw dw-house-1" /><span className="mtext">Home</span>
+                                    <span className="micon bi bi-house" /><span className="mtext">Home</span>
                                 </a>
                                 <ul className="submenu">
-                                    <li><Link to='/'>Dashboard style 1</Link></li>
+                                    <li><a href="index.html">Dashboard style 1</a></li>
                                     <li><Link to='/dashboard2'>Dashboard style 2</Link></li>
+                                    <li><a href="index3.html">Dashboard style 3</a></li>
                                 </ul>
                             </li>
                             <li className="dropdown">
                                 <a href="javascript:;" className="dropdown-toggle">
-                                    <span className="micon dw dw-list3" /><span className="mtext">Multi Level Menu</span>
+                                    <span className="micon bi bi-hdd-stack" /><span className="mtext">Multi Level Menu</span>
                                 </a>
                                 <ul className="submenu">
                                     <li><a href="javascript:;">Level 1</a></li>
